@@ -104,8 +104,6 @@ body{
  -----------------*/
  /* brend-logo start */
 .brend-logo{
-    /* background-color: yellow; */
-    /* height: 100px; */
     margin: 100px 0;
     padding:  10px 50px;
     border-top: 1px solid rgba(235, 229, 229, 0.815);
@@ -163,21 +161,23 @@ section .section-titel{
     font-size: 16px;
     padding: 10px 0;
 }
-/* .popular-icon .quality-text{
+.quality-text .pp{
     width: 196px;
-    height: 61px; 
-}*/
+    height: 48px; 
+}
 .popular-icon .quality-text p{
     line-height: 22px;
     color: #787885;
     font-size: 16px;
     font-weight: 700;
 }
+.quality-text .par{
+    width: 196px;
+    height: 48px; 
+}
 .aa {
     text-align: right;
     margin: 40px;
-    text-decoration: none;
-    color: ;
 }
 .aa a{
     text-decoration: none;
@@ -190,6 +190,4 @@ section .section-titel{
     color: #E02C6D;
     font-size: 16px;
     font-weight: 600;
-
-
-
+}
