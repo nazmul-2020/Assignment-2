@@ -227,3 +227,36 @@ section .section-titel{
     border: 0;
 }
   /* CONTACT end */
+  /* -- footer start -- */
+footer{
+    background-color: #0A0826;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: #FFFF;
+}
+.footer-full{
+    display: flex;
+    flex-direction: column;
+}
+.footer-titel h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFF;
+    line-height: 36px;
+}
+.footer-titel p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #D9DBE1;
+    line-height: 24px;
+}
+.footer-icon{
+    padding-top: 10px;
+}
+.footer-icon .fab{
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+  /* -- footer end -- */
