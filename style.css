@@ -104,10 +104,14 @@ body{
  -----------------*/
  /* brend-logo start */
 .brend-logo{
-    background-color: yellow;
-    height: 100px;
+    /* background-color: yellow; */
+    /* height: 100px; */
     margin: 100px 0;
-    padding:  0 20px;
+    padding:  10px 50px;
+    border-top: 1px solid rgba(235, 229, 229, 0.815);
+    border-bottom: 1px solid rgba(235, 229, 229, 0.815);
+    display: flex;
+    justify-content: space-between;
 }
   /* brend-logo end */
 section .section-titel{
