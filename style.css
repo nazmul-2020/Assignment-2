@@ -65,9 +65,15 @@ body{
     width: 582px;
     height: 270px;
 }
+.baner .baner-pic{
+    overflow: hidden;
+}
 .baner .baner-pic img{
-    width: 440px;
-    height: 414px;
+    width: 100%;    
+}
+.baner-pic:hover img{
+    transform: scale(1.5);
+       
 }
 .baner-text h1{
     font-size: 52px;
