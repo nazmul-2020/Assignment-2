@@ -110,6 +110,13 @@ body{
     padding:  0 20px;
 }
   /* brend-logo end */
+section .section-titel{
+    text-align: center;
+    margin: 50px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
   .popular-main{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -131,5 +138,54 @@ body{
     font-size: 28px;
     font-weight: 500;
     line-height: 28px;
-    padding: 15px 0;
+    padding: 15px 0 10px 0;
 }
+.popular-text .popular-price{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+}
+.popular-icon{
+    /* padding: 10px 0; */
+}
+.popular-icon span{
+    padding-left: 15px;
+    color: #5E6366;
+    font-size: 15px;
+    font-weight: 400;
+}
+.popular-icon .fa-star{
+    color: #FB8200;
+    font-size: 16px;
+    padding: 10px 0;
+}
+/* .popular-icon .quality-text{
+    width: 196px;
+    height: 61px; 
+}*/
+.popular-icon .quality-text p{
+    line-height: 22px;
+    color: #787885;
+    font-size: 16px;
+    font-weight: 700;
+}
+.aa {
+    text-align: right;
+    margin: 40px;
+    text-decoration: none;
+    color: ;
+}
+.aa a{
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+}
+.aa a .fas{
+    padding-left: 10px;
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 600;
+
+
+
