@@ -56,7 +56,7 @@ body{
 /* nav bar end */
 /* baner start  */
 .baner{
-    margin: 50px 100px;
+    /* margin: 50px 100px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -205,7 +205,7 @@ section .section-titel{
 .contact{
     margin: 80px 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 .contact-left img{
@@ -233,6 +233,7 @@ section .section-titel{
     border: 0;
 }
   /* CONTACT end */
+
   /* -- footer start -- */
 footer{
     background-color: #0A0826;
@@ -257,11 +258,41 @@ footer{
     color: #D9DBE1;
     line-height: 24px;
 }
+
 .footer-icon{
     padding-top: 10px;
 }
+
 .footer-icon .fab{
     padding-left: 10px;
     font-size: 15px;
 }
 /* -- footer end -- */
+    /*---@media query---*/
+@media only screen and (max-width:688px) {
+    .baner{
+        display: flex;
+        flex-direction: column;
+    }
+    .popular-main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* .popular, .popular-pic, .{
+        width: 100%;
+    } */
+    .brend-logo, .nav-menu{
+        display: none;
+    }
+
+    .contact{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .footer, .footer-full, .popular-pic img{
+        width: 100%;
+    }
+
+}
